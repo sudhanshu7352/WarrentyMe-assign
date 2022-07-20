@@ -38,7 +38,7 @@ export const Home = () => {
           required
           placeholder="search by keyword"
         />
-        <button onClick={handleSearch}>search</button>
+        <button className="search" onClick={handleSearch}>search</button>
       </div>
 
       <div className="box">
